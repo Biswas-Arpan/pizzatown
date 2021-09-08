@@ -1,0 +1,351 @@
+/* css resat */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.404);
+  width: 100%;
+  height: 757px;
+}
+#navbar {
+  display: flex;
+  flex-direction: row;
+  font-family: arial black;
+  font-size: 1.2rem;
+}
+#navbar::before {
+  background: url("bg1.jpg") no-repeat left center/cover;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 757px;
+  opacity: 0.9;
+  z-index: -1;
+}
+#img {
+  width: 100px;
+  height: 100px;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+}
+#navbar ul li {
+  padding: 15px 34px;
+  list-style: none;
+}
+#navbar ul li a {
+  color: aquamarine;
+  list-style: none;
+  text-decoration: none;
+}
+.hbtn:hover {
+  position: relative;
+  top: 3px;
+}
+.login {
+  position: absolute;
+  top: 27px;
+  color: white;
+  right: 140px;
+  font-family: arial black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 15px 34px;
+}
+.login:hover {
+  position: absolute;
+  top: 29px;
+  right: 140;
+}
+.dom {
+  width: 35%;
+  margin: 90px 0px 0px 120px;
+}
+.dom h1 {
+  font-family: sans-serif;
+  font-size: 6rem;
+  color: cornsilk;
+  margin-bottom: 10px;
+}
+.prmbtn {
+  padding: 14px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(12, 12, 12);
+  background-color:yellow;
+  border-radius: 15px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.685);
+  font-family: arial black;
+  cursor: pointer;
+}
+.prmbtn:hover {
+  color: black;
+  margin: 5px;
+  text-shadow: 2px 2px 4px white;
+  font-family: arial black;
+}
+.orderMenu {
+  display: block;
+  margin: auto;
+  margin-top: 120px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  text-align: right;
+  font-family: arial black;
+  color: white;
+}
+.wave {
+  background: url("bg.jpg") no-repeat center center/cover;
+  height: 300px;
+  margin: 0px 40px 0px 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 30px;
+  display: inline;
+}
+.wave button {
+  align-self: flex-end;
+  display: inline;
+}
+
+.pizza {
+  background: url("22.jpg") no-repeat center center/cover;
+  height: 300px;
+  margin: 0px 80px 0px 40px;
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  display: inline;
+  overflow: hidden;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(248, 68, 68, 0.671);
+  color: blanchedalmond;
+  border-radius: 10px;
+}
+#container::before {
+  background: url("44.jpg") no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  opacity: 0.9;
+  z-index: -1;
+}
+#container {
+  padding-top: 120px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+.pizzaBox {
+  width: 50%;
+  height: 500px;
+  display: block;
+  margin-left: 674px;
+  margin-top: 0px;
+}
+#container div h1 {
+  font-size: 10rem;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(185, 185, 16);
+}
+#container div h4 {
+  font-size: 5rem;
+  margin: 0px;
+  padding: 0px;
+}
+.last {
+  text-align: center;
+}
+#container div p {
+  font-size: 1rem;
+  width: 90%;
+}
+.heading {
+  font-size: 2rem;
+  font-family: arial black;
+  width: 44%;
+  text-align: center;
+  margin: auto;
+}
+.heading h2 {
+  font-size: 2rem;
+  background-color: yellowgreen;
+}
+#imgb {
+  background: url(bg3.png) no-repeat center center/cover;
+  width: 54%;
+  height: 467px;
+  margin: auto;
+}
+.delivery {
+  margin-top: 100px;
+  padding-left: 200px;
+  padding-top: 100px;
+  height: 500px;
+  background-color: rgba(211, 233, 201, 0.829);
+  display: flex;
+  flex-direction: row;
+}
+.dimg {
+  background: url(dlb.png) no-repeat center center/cover;
+  width: 45%;
+  height: 484px;
+}
+.dabout {
+  padding-left: 200px;
+  padding-right: 100px;
+}
+.dabout h1 {
+  font-size: 3.5rem;
+  margin: 0px;
+}
+.dabout h3 {
+  font-size: 3rem;
+  margin: 0px;
+  margin-bottom: 15px;
+  color: rgb(167, 245, 11);
+  font-family: cursive;
+}
+.dabout p {
+  margin: 0px;
+  margin-top: 15px;
+  color: yellowgreen;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.dcontact {
+  margin: 0px;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+.dcontact h2 {
+  margin: 0px;
+}
+.dcontact h1 {
+  margin: 0px;
+  color: rgb(135, 201, 4);
+}
+.dcontact button {
+  margin: 0px;
+  margin-left: 318px;
+  margin-top: -38px;
+  padding: 20px;
+  background-color: yellow;
+  border-radius: 10px;
+  font-family: arial black;
+  font-size: 14px;
+}
+.dcontact button:hover {
+  margin: 0px;
+  margin-left: 318px;
+  margin-top: -15px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: arial black;
+  font-size: 14px;
+}
+.theading {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.theading h3 {
+  color: rgb(206, 206, 67);
+  margin-bottom: 0px;
+  font-family: cursive;
+}
+.theading h1 {
+  margin: 0px;
+  margin-top: 20px;
+}
+.titame {
+  margin-top: 55px;
+  background-color: rgba(245, 222, 179, 0.199);
+  display: flex;
+  flex-direction: row;
+  font-family: arial black;
+}
+.titame div {
+  padding: 40px;
+}
+.titame img {
+  width: 60%;
+}
+.itame3 img {
+  margin-top: 93px;
+  width: 100%;
+}
+.titame div h1 {
+  font-size: 29px;
+}
+.titame div p {
+  font-size: 15px;
+  color: rgb(206, 206, 67);
+}
+.registar {
+  margin-top: 52px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.registar h1{
+  display: block;
+  font-family: arial black;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-size: 3rem;  
+}
+.registar h3 {
+  font-family: arial black;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-size: 2rem;
+  display: block;
+}
+#emailbox{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#emailbox input{
+  padding: 10px 30px;
+  margin: 30px;
+  outline: none;
+  border:none;
+  border-radius: 10px;
+  background-color: rgb(108, 240, 240);
+}
+#emailbox button{
+  padding: 10px 20px;
+  border-color: none;
+  background-color: chartreuse;
+  border-radius: 10px;
+}
+#footer h4{
+  margin-top: -40px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.1em;
+}
